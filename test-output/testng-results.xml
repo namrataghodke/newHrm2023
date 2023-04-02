@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="7" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-20T19:09:30 IST" name="Suite" finished-at="2023-03-20T19:10:05 IST" duration-ms="34929">
+    <groups>
+    </groups>
+    <test started-at="2023-03-20T19:09:30 IST" name="Test" finished-at="2023-03-20T19:10:05 IST" duration-ms="34929">
+      <class name="testPackage.TestClass">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testPackage.TestClass@75d4a5c2]" started-at="2023-03-20T19:09:30 IST" name="beforeSuite" finished-at="2023-03-20T19:09:30 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testPackage.TestClass@75d4a5c2]" started-at="2023-03-20T19:09:54 IST" name="beforeClass" finished-at="2023-03-20T19:09:54 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMetod()[pri:0, instance:testPackage.TestClass@75d4a5c2]" started-at="2023-03-20T19:09:54 IST" name="beforeMetod" finished-at="2023-03-20T19:09:54 IST" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMetod -->
+        <test-method signature="verifyTextBoxWithCorrectCredential()[pri:0, instance:testPackage.TestClass@75d4a5c2]" started-at="2023-03-20T19:09:54 IST" name="verifyTextBoxWithCorrectCredential" finished-at="2023-03-20T19:09:58 IST" duration-ms="3776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTextBoxWithCorrectCredential -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testPackage.TestClass@75d4a5c2]" started-at="2023-03-20T19:09:58 IST" name="afterMethod" finished-at="2023-03-20T19:09:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testPackage.TestClass@75d4a5c2]" started-at="2023-03-20T19:09:58 IST" name="afterMethod" finished-at="2023-03-20T19:09:58 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTextBoxWithCorrectCredential status=SUCCESS method=TestClass.verifyTextBoxWithCorrectCredential()[pri:0, instance:testPackage.TestClass@75d4a5c2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testPackage.TestClass@75d4a5c2]" started-at="2023-03-20T19:09:58 IST" name="afterClass" finished-at="2023-03-20T19:09:58 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testPackage.TestClass@75d4a5c2]" started-at="2023-03-20T19:10:05 IST" name="afterSuite" finished-at="2023-03-20T19:10:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testPackage.TestClass -->
+      <class name="testPackage.BaseClass">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:testPackage.BaseClass@34123d65]" started-at="2023-03-20T19:09:30 IST" name="beforeTest" finished-at="2023-03-20T19:09:54 IST" duration-ms="23659" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testPackage.BaseClass@34123d65]" started-at="2023-03-20T19:10:05 IST" name="afterTest" finished-at="2023-03-20T19:10:05 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testPackage.BaseClass -->
+      <class name="testPackage.TestClassCheckBox">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testPackage.TestClassCheckBox@22ff4249]" started-at="2023-03-20T19:09:58 IST" name="beforeMethod" finished-at="2023-03-20T19:09:58 IST" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifyTheBox()[pri:0, instance:testPackage.TestClassCheckBox@22ff4249]" started-at="2023-03-20T19:09:58 IST" name="VerifyTheBox" finished-at="2023-03-20T19:09:58 IST" duration-ms="459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTheBox -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testPackage.TestClassCheckBox@22ff4249]" started-at="2023-03-20T19:09:58 IST" name="afterMethod" finished-at="2023-03-20T19:09:58 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyTheBox status=SUCCESS method=TestClassCheckBox.VerifyTheBox()[pri:0, instance:testPackage.TestClassCheckBox@22ff4249] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testPackage.TestClassCheckBox@22ff4249]" started-at="2023-03-20T19:09:58 IST" name="beforeMethod" finished-at="2023-03-20T19:09:58 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyWebTable()[pri:0, instance:testPackage.TestClassCheckBox@22ff4249]" started-at="2023-03-20T19:09:58 IST" name="verifyWebTable" finished-at="2023-03-20T19:10:05 IST" duration-ms="6721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWebTable -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testPackage.TestClassCheckBox@22ff4249]" started-at="2023-03-20T19:10:05 IST" name="afterMethod" finished-at="2023-03-20T19:10:05 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWebTable status=SUCCESS method=TestClassCheckBox.verifyWebTable()[pri:0, instance:testPackage.TestClassCheckBox@22ff4249] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testPackage.TestClassCheckBox -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
